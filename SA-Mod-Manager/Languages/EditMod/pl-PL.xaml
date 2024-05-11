@@ -1,0 +1,39 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="EditMod.Description">Podaj Informacje O Twoim Modzie.</system:String>
+    <system:String x:Key="EditMod.Header.EditMod">Edytuj</system:String>
+    <system:String x:Key="EditMod.Header.NewMod">Nowy Mod</system:String>
+
+    <system:String x:Key="EditMod.Tabs.Info">Informacje O Modzie</system:String>
+    <system:String x:Key="EditMod.Tabs.Info.AuthorURL">URL Autora:</system:String>
+    <system:String x:Key="EditMod.Tabs.Info.ModID">ID Moda:</system:String>
+    <system:String x:Key="EditMod.Tabs.Info.DLL">DLL:</system:String>
+    <system:String x:Key="EditMod.Tabs.Info.Source">URL Kodu Źródłowego:</system:String>
+    <system:String x:Key="EditMod.Tabs.Info.SaveRedirect">Zapisz Przekierowanie:</system:String>
+    <system:String x:Key="EditMod.Tabs.Info.Check.RedirectMainSave">Główny Zapis</system:String>
+    <system:String x:Key="EditMod.Tabs.Info.Check.RedirectChaoSave">Zapis Chao</system:String>
+    <system:String x:Key="EditMod.Tabs.Btn.Advanced">Zaawansowane</system:String>
+
+    <system:String x:Key="EditMod.Tabs.Updates">Zaktualizuj Informacje</system:String>
+    <system:String x:Key="EditMod.Tabs.Updates.Method">Metoda Aktualizacji</system:String>
+    <system:String x:Key="EditMod.Tabs.Updates.SelfHosted">Samodzielne Hostowanie</system:String>
+    <system:String x:Key="EditMod.Tabs.Updates.GitHub">Ustawienie aktualizacji Github</system:String>
+    <system:String x:Key="EditMod.Tabs.Updates.GitHub.Author">Autor i Repo:</system:String>
+    <system:String x:Key="EditMod.Tabs.Updates.GitHub.Asset">Zasób Wydania:</system:String>
+    <system:String x:Key="EditMod.Tabs.Updates.GB">Ustawienie aktualizacji Gamebanana</system:String>
+    <system:String x:Key="EditMod.Tabs.Updates.GB.ModID">ID Moda:</system:String>
+    <system:String x:Key="EditMod.Tabs.Updates.GB.ModType">Typ Moda:</system:String>
+    <system:String x:Key="EditMod.Tabs.Updates.Self">Ustawienie aktualizacji Samodzielnego Hostowania</system:String>
+    <system:String x:Key="EditMod.Tabs.Updates.Self.URL">URL Aktualizacji:</system:String>
+    <system:String x:Key="EditMod.Tabs.Updates.Self.Changelog">URL Dziennik Zmian:</system:String>
+
+    <system:String x:Key="EditMod.Tabs.Dependencies">Zależności</system:String>
+    <system:String x:Key="EditMod.Tabs.Dependencies.Warning">System zależnosći jest wyłącznie do użycia gdy stowrzysz mod który absolutnie opiera się na innym modzie.</system:String>
+    <system:String x:Key="EditMod.Tabs.Dependencies.Buttons.Add">Dodaj Zależności</system:String>
+    <system:String x:Key="EditMod.Tabs.Dependencies.Buttons.Remove">Usuń Zależności</system:String>
+    <system:String x:Key="EditMod.Tabs.Dependencies.Grid.ID">ID</system:String>
+    <system:String x:Key="EditMod.Tabs.Dependencies.Grid.Folder">Folder</system:String>
+    <system:String x:Key="EditMod.Tabs.Dependencies.Grid.Column">Link do Pobrania</system:String>
+</ResourceDictionary>
